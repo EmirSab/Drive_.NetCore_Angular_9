@@ -1,0 +1,2 @@
+1.Da bi se uradile migracije instalirati EntityFrameworkCore.Tools
+2.Da bi se seedalo normalno datumi moraju imati sljedeci format yyyy-mm-dd ili se prati da ispravkama kroz seed metod,

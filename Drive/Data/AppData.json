@@ -1,0 +1,124 @@
+/*https://www.json-generator.com/#*/
+/*Da bi se uspjesno seedalo datum mora bit u formatu "1975-02-21" */
+[
+  {
+    "Name": "Mcdowell",
+    "LastName": "Graves",
+    "Jmbg": 10,
+    "WorkStart": "1992-02-21",
+    "WorkEnd": "1994-02-21",
+    "Address": "241 Wythe Place, 1316",
+    "BankAccount": "Occaecat sint qui consectetur commodo proident occaecat in sint aliqua ullamco incididunt ex aute ut.",
+    "DateOfBirth": "1975-02-21",
+    "Email": "mcdowellgraves@turnling.com",
+    "PhoneNumber": "(909) 513-3466"
+  },
+  {
+    "Name": "Ortiz",
+    "LastName": "Howe",
+    "Jmbg": 10,
+    "WorkStart": "1990-02-21",
+    "WorkEnd": "1994-02-21",
+    "Address": "951 Blake Avenue, 3645",
+    "BankAccount": "Labore aute proident in amet duis velit pariatur ea ullamco.",
+    "DateOfBirth": "1991-02-21",
+    "Email": "ortizhowe@turnling.com",
+    "PhoneNumber": "(969) 578-2319"
+  },
+  {
+    "Name": "Downs",
+    "LastName": "Owens",
+    "Jmbg": 10,
+    "WorkStart": "1977-02-21",
+    "WorkEnd": "1994-02-21",
+    "Address": "303 Hendrix Street, 714",
+    "BankAccount": "Laboris aliqua labore amet ea proident.",
+    "DateOfBirth": "1992-02-21",
+    "Email": "downsowens@turnling.com",
+    "PhoneNumber": "(993) 470-3757"
+  },
+  {
+    "Name": "Morrow",
+    "LastName": "Irwin",
+    "Jmbg": 10,
+    "WorkStart": "1965-02-21",
+    "WorkEnd": "2000-02-21",
+    "Address": "728 Maple Street, 4980",
+    "BankAccount": "Dolor nulla dolore enim ipsum officia quis magna nulla voluptate mollit nisi reprehenderit.",
+    "DateOfBirth": "1966-02-21",
+    "Email": "morrowirwin@turnling.com",
+    "PhoneNumber": "(848) 485-2154"
+  },
+  {
+    "Name": "Shana",
+    "LastName": "Walter",
+    "Jmbg": 10,
+    "WorkStart": "1985-02-21",
+    "WorkEnd": "1994-02-21",
+    "Address": "940 Wakeman Place, 5834",
+    "BankAccount": "Magna incididunt mollit et ullamco nostrud dolore elit eiusmod aliquip aliquip nisi Lorem magna.",
+    "DateOfBirth": "1979-02-21",
+    "Email": "shanawalter@turnling.com",
+    "PhoneNumber": "(926) 424-2588"
+  },
+  {
+    "Name": "Lidia",
+    "LastName": "Stephenson",
+    "Jmbg": 10,
+    "WorkStart": "1959-02-21",
+    "WorkEnd": "1994-02-21",
+    "Address": "379 Cyrus Avenue, 9452",
+    "BankAccount": "Ullamco adipisicing duis consectetur quis ullamco mollit exercitation nostrud ut laborum.",
+    "DateOfBirth": "1997-02-21",
+    "Email": "lidiastephenson@turnling.com",
+    "PhoneNumber": "(865) 491-3350"
+  },
+  {
+    "Name": "Tiffany",
+    "LastName": "Newman",
+    "Jmbg": 10,
+    "WorkStart": "1994-02-21",
+    "WorkEnd": "2000-02-21",
+    "Address": "910 Folsom Place, 377",
+    "BankAccount": "Duis laboris tempor occaecat duis eiusmod.",
+    "DateOfBirth": "1907-02-21",
+    "Email": "tiffanynewman@turnling.com",
+    "PhoneNumber": "(959) 550-3995"
+  },
+  {
+    "Name": "Ida",
+    "LastName": "Neal",
+    "Jmbg": 10,
+    "WorkStart": "1971-02-21",
+    "WorkEnd": "1985-02-21",
+    "Address": "477 Knickerbocker Avenue, 2927",
+    "BankAccount": "Lorem elit labore ipsum eu do eiusmod do aliqua ad laboris voluptate.",
+    "DateOfBirth": "2016-02-21",
+    "Email": "idaneal@turnling.com",
+    "PhoneNumber": "(940) 420-3122"
+  },
+  {
+    "Name": "Sweet",
+    "LastName": "Gaines",
+    "Jmbg": 10,
+    "WorkStart": "1928-02-21",
+    "WorkEnd": "2013-02-21",
+    "Address": "712 Morgan Avenue, 5278",
+    "BankAccount": "Id tempor sit proident laboris sit consequat id magna aliquip dolore voluptate aliquip duis.",
+    "DateOfBirth": "1968-02-21",
+    "Email": "sweetgaines@turnling.com",
+    "PhoneNumber": "(980) 442-3397"
+  },
+  {
+    "Name": "Gould",
+    "LastName": "Hopkins",
+    "Jmbg": 10,
+    "WorkStart": "1921-02-21",
+    "WorkEnd": "2019-02-21",
+    "Address": "313 Sandford Street, 9778",
+    "BankAccount": "Excepteur est dolor sit aliquip aute enim fugiat incididunt.",
+    "DateOfBirth": "1990-02-21",
+    "Email": "gouldhopkins@turnling.com",
+    "PhoneNumber": "(962) 463-3745"
+  }
+]
