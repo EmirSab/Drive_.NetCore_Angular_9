@@ -1,4 +1,5 @@
 /*https://www.json-generator.com/#*/
+/*Da bi se uspjesno seedalo datum mora bit u formatu "1975-02-21" */
 [
   {
     "Name": "Mcdowell",
