@@ -50,5 +50,3 @@ C:\Users\Emir\Desktop\Drive\Drive\obj\Debug\netcoreapp3.1\Drive.genruntimeconfig
 C:\Users\Emir\Desktop\Drive\Drive\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\Emir\Desktop\Drive\Drive\bin\Debug\netcoreapp3.1\Data\AppData.json
 C:\Users\Emir\Desktop\Drive\Drive\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-C:\Users\Emir\Desktop\Drive\Drive\obj\Debug\netcoreapp3.1\Drive.csproj.CoreCompileInputs.cache
-C:\Users\Emir\Desktop\Drive\Drive\obj\Debug\netcoreapp3.1\Drive.MvcApplicationPartsAssemblyInfo.cache

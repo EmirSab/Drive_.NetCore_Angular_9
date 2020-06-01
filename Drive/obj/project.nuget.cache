@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "0CY+Ac4aE6RdRA0KnpaxSCHnmkcYhe0YN2YSgCudYsTJPGIFdsdQh2WjnGNEwRGV66RVzR/IeWb0NuW/A+QfZw==",
+  "dgSpecHash": "24/OGKc7vafS/bT3pFpUOfljRv0FjR8AnUWqaucbIW5g1S4PUehBSpiNV3G+GVDMgnuvnqBJIGpV6pHuAOzW4A==",
   "success": true,
   "projectFilePath": "C:\\Users\\Emir\\Desktop\\Drive\\Drive\\Drive.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Emir\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\Emir\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\Emir\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\Emir\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
