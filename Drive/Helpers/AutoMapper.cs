@@ -14,7 +14,6 @@ namespace Drive.Helpers
         {
             CreateMap<DriverForCreationDto, Driver>();
             CreateMap<Driver, DriverToReturnDto>();
-
         }
     }
 }
