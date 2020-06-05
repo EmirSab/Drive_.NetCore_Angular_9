@@ -8,11 +8,12 @@ using System.Threading.Tasks;
 
 namespace Drive.Repositories
 {
-    public interface IRepository
-
+    public interface IRepository<T>
     {
-        void Add<T>(T entity) where T : class;
-        void Delete<T>(T entity) where T : class;
-        Task<List<Driver>> GetAll();
+        Task<T> Add(T entity);
+        Task<List<T>> GetAll();
+        Task<T> Update(T entity);
+        Task<T> Delete(int id);
+
     }
 }
