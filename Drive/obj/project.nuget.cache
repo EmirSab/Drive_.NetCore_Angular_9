@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "sHyEhoN8lNT1cgV8n5pj15Au3Qb2f8cTt4UHcbKPx99bmOapEWLDNO85JBrNfpSb3YUp5Jj/+xbRJTk8DTmsQg==",
+  "dgSpecHash": "/V8MbhSXIh0vX0aOJkw7w2DYZtdm+QZ47N+ydgP+L+GS1CUj+bVXl4qYVW77vKyWCVXReSm/TKdAZprS9PlD6Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Emir\\Desktop\\Drive\\Drive\\Drive.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Emir\\.nuget\\packages\\abp\\5.9.0\\abp.5.9.0.nupkg.sha512",
     "C:\\Users\\Emir\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
+    "C:\\Users\\Emir\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\6.1.1\\automapper.extensions.microsoft.dependencyinjection.6.1.1.nupkg.sha512",
     "C:\\Users\\Emir\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\Emir\\.nuget\\packages\\castle.core.asyncinterceptor\\2.0.21-alpha\\castle.core.asyncinterceptor.2.0.21-alpha.nupkg.sha512",
     "C:\\Users\\Emir\\.nuget\\packages\\castle.loggingfacility\\5.0.1\\castle.loggingfacility.5.0.1.nupkg.sha512",

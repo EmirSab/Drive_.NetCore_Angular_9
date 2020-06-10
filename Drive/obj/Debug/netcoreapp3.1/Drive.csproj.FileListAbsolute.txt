@@ -126,8 +126,6 @@ C:\Users\Emir\Desktop\Drive\Drive\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.Code
 C:\Users\Emir\Desktop\Drive\Drive\bin\Debug\netcoreapp3.1\EO.Base.dll
 C:\Users\Emir\Desktop\Drive\Drive\bin\Debug\netcoreapp3.1\EO.WebBrowser.dll
 C:\Users\Emir\Desktop\Drive\Drive\bin\Debug\netcoreapp3.1\EO.WebEngine.dll
-C:\Users\Emir\Desktop\Drive\Drive\obj\Debug\netcoreapp3.1\Drive.csproj.CoreCompileInputs.cache
-C:\Users\Emir\Desktop\Drive\Drive\obj\Debug\netcoreapp3.1\Drive.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Emir\Desktop\Drive\Drive\bin\Debug\netcoreapp3.1\Abp.dll
 C:\Users\Emir\Desktop\Drive\Drive\bin\Debug\netcoreapp3.1\Castle.Core.dll
 C:\Users\Emir\Desktop\Drive\Drive\bin\Debug\netcoreapp3.1\Castle.Core.AsyncInterceptor.dll
@@ -145,3 +143,6 @@ C:\Users\Emir\Desktop\Drive\Drive\bin\Debug\netcoreapp3.1\System.Collections.Imm
 C:\Users\Emir\Desktop\Drive\Drive\bin\Debug\netcoreapp3.1\System.Linq.Dynamic.Core.dll
 C:\Users\Emir\Desktop\Drive\Drive\bin\Debug\netcoreapp3.1\System.Xml.XPath.XmlDocument.dll
 C:\Users\Emir\Desktop\Drive\Drive\bin\Debug\netcoreapp3.1\TimeZoneConverter.dll
+C:\Users\Emir\Desktop\Drive\Drive\obj\Debug\netcoreapp3.1\Drive.csproj.CoreCompileInputs.cache
+C:\Users\Emir\Desktop\Drive\Drive\obj\Debug\netcoreapp3.1\Drive.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Emir\Desktop\Drive\Drive\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

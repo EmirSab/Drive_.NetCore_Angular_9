@@ -1,4 +1,5 @@
 ﻿using Drive.Models;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -17,7 +18,8 @@ namespace Drive.Data
         }
         public async Task<List<Driver>> GetDrivers()
         {
-            return await _context.Drivers.ToListAsync();
+            var drivers = _context.Drivers.ToListAsync();
+            return await drivers;
         }
     }
 }

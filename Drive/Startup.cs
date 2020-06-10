@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
 using Drive.Data;
 using Drive.Models;
 using Microsoft.AspNetCore.Builder;
@@ -29,6 +30,8 @@ namespace Drive
         {
             services.AddDbContext<DataContext>(x => x.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddTransient<Seed>();
+            services.AddScoped<IDriverRepository, DriverRepository>();
+            services.AddAutoMapper();
             services.AddControllers();
         }
 
