@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "WXCZSyx2V/LQ7oLfnSc0v6iFE3uOvzuJwMrCYEzsunbpZY8hevwOjLKza+eKJCxdPQn6/+JexOqn4o+vzCIGIA==",
+  "dgSpecHash": "sHyEhoN8lNT1cgV8n5pj15Au3Qb2f8cTt4UHcbKPx99bmOapEWLDNO85JBrNfpSb3YUp5Jj/+xbRJTk8DTmsQg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Emir\\Desktop\\Drive\\Drive\\Drive.csproj",
   "expectedPackageFiles": [
@@ -186,8 +186,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xpath\\4.3.0\\system.xml.xpath.4.3.0.nupkg.sha512",
     "C:\\Users\\Emir\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.3.0\\system.xml.xpath.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Emir\\.nuget\\packages\\timezoneconverter\\3.2.0\\timezoneconverter.3.2.0.nupkg.sha512",
-    "C:\\Users\\Emir\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+    "C:\\Users\\Emir\\.nuget\\packages\\timezoneconverter\\3.2.0\\timezoneconverter.3.2.0.nupkg.sha512"
   ],
   "logs": [
     {
