@@ -9,6 +9,8 @@ namespace Drive.Data
     public interface IDriverRepository
     {
         Task<List<Driver>> GetDrivers();
+        Task<Driver> GetDriverById(int id);
+        Task<Driver> UpdateDriver(Driver driver);
 
     }
 }

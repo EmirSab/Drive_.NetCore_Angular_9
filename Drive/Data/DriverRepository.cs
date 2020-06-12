@@ -16,10 +16,24 @@ namespace Drive.Data
         {
             _context = context;
         }
+
+        public async Task<Driver> GetDriverById(int id)
+        {
+            var driver = await _context.Drivers.FirstOrDefaultAsync(d => d.Id == id);
+            return  driver;
+        }
+
         public async Task<List<Driver>> GetDrivers()
         {
             var drivers = _context.Drivers.ToListAsync();
             return await drivers;
+        }
+
+        public async  Task<Driver> UpdateDriver(Driver driver)
+        {
+            _context.Entry(driver).State = EntityState.Modified;
+            await _context.SaveChangesAsync();
+            return driver;
         }
     }
 }
