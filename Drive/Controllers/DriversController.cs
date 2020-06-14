@@ -38,7 +38,7 @@ namespace Drive.Controllers
             }
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("{id}", Name = "GetDriver")]
         public async Task<IActionResult> GetDriver(int id)
         {
             try
@@ -51,20 +51,41 @@ namespace Drive.Controllers
                 throw new Exception("There was a problem", ex);
             }
         }
+        [HttpPost]
+        public async Task<IActionResult> AddDriver(Driver driver)
+        {
+            try
+            {
+                await _repo.AddDriver(driver);
+                return CreatedAtAction("GetDriver", new {id = driver.Id }, driver);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("There was a problem", ex);
+            }
+        }
 
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateDriver(int id, [FromBody] Driver driver)
         {
             try
             {
-                await _repo.UpdateDriver(driver);
-            https://medium.com/net-core/repository-pattern-implementation-in-asp-net-core-21e01c6664d7
+                if (id != driver.Id)
+                {
+                    return BadRequest();
+                }
+                else
+                {
+                    await _repo.UpdateDriver(driver);
+                    return NoContent();
+                }
             }
             catch (Exception ex)
             {
 
                 throw new Exception("There was a problem", ex);
             }
+
         }
 
     }

@@ -1,4 +1,5 @@
-﻿using Drive.Models;
+﻿using Drive.Migrations;
+using Drive.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -15,6 +16,13 @@ namespace Drive.Data
         public DriverRepository(DataContext context)
         {
             _context = context;
+        }
+
+        public async Task<Driver> AddDriver(Driver driver)
+        {
+            _context.Set<Driver>().Add(driver);
+            await _context.SaveChangesAsync();
+            return driver;
         }
 
         public async Task<Driver> GetDriverById(int id)
