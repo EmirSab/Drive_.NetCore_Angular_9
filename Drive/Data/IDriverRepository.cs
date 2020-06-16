@@ -12,6 +12,7 @@ namespace Drive.Data
         Task<Driver> GetDriverById(int id);
         Task<Driver> UpdateDriver(Driver driver);
         Task<Driver> AddDriver(Driver driver);
+        Task<Driver> Delete(int id);
 
     }
 }

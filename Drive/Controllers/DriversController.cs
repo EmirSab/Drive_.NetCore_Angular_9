@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
 using Drive.Data;
+using Drive.Dtos;
 using Drive.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -11,6 +12,10 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Drive.Controllers
 {
+    /*
+     https://medium.com/net-core/repository-pattern-implementation-in-asp-net-core-21e01c6664d7
+    https://code-maze.com/net-core-web-development-part6/
+     */
     [Route("api/[controller]")]
     [ApiController]
     public class DriversController : ControllerBase
@@ -66,27 +71,53 @@ namespace Drive.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateDriver(int id, [FromBody] Driver driver)
+        public async Task<IActionResult> UpdateDriver(int id, [FromBody]Driver driver)
         {
             try
             {
-                if (id != driver.Id)
+                if (driver == null)
                 {
-                    return BadRequest();
+                    return BadRequest("Owner object is null");
                 }
-                else
+
+                if (!ModelState.IsValid)
                 {
-                    await _repo.UpdateDriver(driver);
-                    return NoContent();
+                    return BadRequest("Invalid model object");
+                }
+
+                var userFromRepo = await _repo.GetDriverById(id);
+                if (userFromRepo == null)
+                {
+                    return NotFound();
+                }
+
+                _mapper.Map(driver, userFromRepo);
+                await _repo.UpdateDriver(userFromRepo);
+
+                return NoContent();
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, "Internal server error");
+            }
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(int id)
+        {
+            try
+            {
+                var driver = await _repo.Delete(id);
+                if (driver == null)
+                {
+                    return NotFound();
                 }
             }
             catch (Exception ex)
             {
-
                 throw new Exception("There was a problem", ex);
             }
-
+            return NoContent();
         }
-
     }
 }
