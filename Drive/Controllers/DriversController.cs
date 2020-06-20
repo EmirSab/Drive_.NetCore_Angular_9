@@ -57,16 +57,34 @@ namespace Drive.Controllers
             }
         }
         [HttpPost]
-        public async Task<IActionResult> AddDriver(Driver driver)
+        public async Task<IActionResult> AddDriver([FromBody]DriverForCreationDto driverForCreationDto )
         {
             try
             {
-                await _repo.AddDriver(driver);
-                return CreatedAtAction("GetDriver", new {id = driver.Id }, driver);
+                if (driverForCreationDto == null)
+                {
+                    //_logger.LogError("Owner object sent from client is null.");
+                    return BadRequest("Driver object is null");
+                }
+
+                if (!ModelState.IsValid)
+                {
+                    //_logger.LogError("Invalid owner object sent from client.");
+                    return BadRequest("Invalid model object");
+                }
+
+                var driverEntity = _mapper.Map<Driver>(driverForCreationDto);
+
+                await _repo.AddDriver(driverEntity);
+
+                var createdDriver = _mapper.Map<Driver>(driverEntity);
+
+                return CreatedAtRoute("GetDriver", new { id = createdDriver.Id }, createdDriver);
             }
             catch (Exception ex)
             {
-                throw new Exception("There was a problem", ex);
+                //_logger.LogError($"Something went wrong inside CreateOwner action: {ex.Message}");
+                return StatusCode(500, "Internal server error");
             }
         }
 

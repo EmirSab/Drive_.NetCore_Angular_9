@@ -42,7 +42,7 @@ namespace Drive
             {
                 app.UseDeveloperExceptionPage();
             }
-            seeder.SeedData();
+            //seeder.SeedData();
             app.UseRouting();
 
             app.UseAuthorization();
