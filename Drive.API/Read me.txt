@@ -1,0 +1,16 @@
+1.Da bi se uradile migracije instalirati EntityFrameworkCore.Tools
+2.Da bi se seedalo normalno datumi moraju imati sljedeci format yyyy-mm-dd ili se prati da ispravkama kroz seed metod,
+----------------------------------------------------
+2. npm install --save bootstrap
+	2.1.Dodati bootstrap link u angular.json http://prntscr.com/t3okph
+	2.2. Onda instalirati npm install --save @types/bootstrap
+		2.2.1 Onda u tsconfig.app.json dodati "bootstrap" pod types
+			http://prntscr.com/t3oltg
+----------------------------------------------------
+3. npm install --save jquery
+	3.1.npm install --save @types/jquery
+	3.2.Dodati u link http://prntscr.com/t3r5i9
+	3.3.Dodati u tsconfig.app.json  http://prntscr.com/t3r683
+-----------------------------------------------------
+4. Pravljenje komponente ng g component home --skipTests
+-----------------------------------------------------
