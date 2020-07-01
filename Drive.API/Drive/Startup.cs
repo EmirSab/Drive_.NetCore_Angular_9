@@ -30,6 +30,7 @@ namespace Drive
         {
             services.AddDbContext<DataContext>(x => x.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddTransient<Seed>();
+            services.AddCors();
             services.AddScoped<IDriverRepository, DriverRepository>();
             services.AddAutoMapper();
             services.AddControllers();
@@ -44,6 +45,7 @@ namespace Drive
             }
             //seeder.SeedData();
             app.UseRouting();
+            app.UseCors(x => x.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 
             app.UseAuthorization();
 

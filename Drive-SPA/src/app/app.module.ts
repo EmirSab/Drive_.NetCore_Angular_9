@@ -20,6 +20,7 @@ import { NotFoundComponent } from './error-pages/not-found/not-found.component';
     HttpClientModule,
     RouterModule.forRoot([
       { path: 'home', component: HomeComponent },
+      { path: 'driver', loadChildren: () => import('./driver/driver.module').then(m => m.DriverModule) },
       { path: '404', component : NotFoundComponent},
       { path: '', redirectTo: '/home', pathMatch: 'full' },
       { path: '**', redirectTo: '/404', pathMatch: 'full'}

@@ -1,0 +1,45 @@
+<div class="row"> 
+    <div class="col-md-offset-10 col-md-2">
+      <a href="#">Create driver</a>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="table-responsive">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Last name</th>
+              <th>Date of birth</th>
+              <th>Jmbg</th>
+              <th>Bank Account</th>
+              <th>Work Start</th>
+              <th>Work End</th>
+              <th>Adress</th>
+              <th>Email</th>
+              <th>Phone number</th>
+              <th>Delete<th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let driver of drivers">
+              <td>{{driver.name}}</td>
+              <td>{{driver.lastName}}</td>
+              <td>{{driver.dateOfBirth | date: 'dd/MM/yyyy'}}</td>
+              <td>{{driver.jmbg}}</td>
+              <td>{{driver.workStart | date: 'dd/MM/yyyy'}}</td>
+              <td>{{driver.workEnd | date: 'dd/MM/yyyy'}}</td>
+              <td>{{driver.adress}}</td>
+              <td>{{driver.email}}</td>
+              <td>{{driver.phoneNumber}}</td>
+              <td><button type="button" id="details" class="btn btn-light">Details</button></td>
+              <td><button type="button" id="update" class="btn btn-success">Update</button></td>
+              <td><button type="button" id="delete" class="btn btn-danger">Delete</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
