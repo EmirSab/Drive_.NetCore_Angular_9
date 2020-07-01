@@ -20,7 +20,6 @@
               <th>Adress</th>
               <th>Email</th>
               <th>Phone number</th>
-              <th>Delete<th>
             </tr>
           </thead>
           <tbody>
@@ -29,14 +28,15 @@
               <td>{{driver.lastName}}</td>
               <td>{{driver.dateOfBirth | date: 'dd/MM/yyyy'}}</td>
               <td>{{driver.jmbg}}</td>
+              <td>{{driver.bankAccount}}</td>
               <td>{{driver.workStart | date: 'dd/MM/yyyy'}}</td>
               <td>{{driver.workEnd | date: 'dd/MM/yyyy'}}</td>
               <td>{{driver.adress}}</td>
               <td>{{driver.email}}</td>
               <td>{{driver.phoneNumber}}</td>
-              <td><button type="button" id="details" class="btn btn-light">Details</button></td>
-              <td><button type="button" id="update" class="btn btn-success">Update</button></td>
-              <td><button type="button" id="delete" class="btn btn-danger">Delete</button></td>
+              <td><button type="button" id="details" class="btn"><i class="fa fa-trash"></i></button></td>
+              <td><button type="button" id="update" class="btn"><i class="fa fa-info" aria-hidden="true"></i></button></td>
+              <td><button type="button" id="delete" class="btn"><i class="fa fa-pencil-square" aria-hidden="true"></i></button></td>
             </tr>
           </tbody>
         </table>
